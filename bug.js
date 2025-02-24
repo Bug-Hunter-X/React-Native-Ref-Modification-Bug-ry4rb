@@ -1,0 +1,1 @@
+In React Native, using a ref to directly access and modify a component's state or props can lead to unexpected behavior and errors. Refs provide access to the underlying DOM element or component instance but should not be used to manipulate the component's internal state.  Instead, you should use the component's props or internal state management mechanisms.
